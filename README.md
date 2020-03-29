@@ -5,7 +5,10 @@
 Wappaligner changes the output of Wappalyzer into something human readable.
 No installation is needed.
 
-# Use
+# Install Wappalyzer
+`wappalyzer-installer.sh`
+
+# Use Wappaligner
 `wappalyzer http://scanme.nmap.org | wappaligner`
 
 This return:

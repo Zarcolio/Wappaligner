@@ -11,7 +11,7 @@ No installation is needed.
 # Use Wappaligner
 `wappalyzer http://scanme.nmap.org | wappaligner`
 
-This return:
+This returns:
 URL = http://scanme.nmap.org/ (HTTP status 200)
 
 Apache 2.4.7 (100%)

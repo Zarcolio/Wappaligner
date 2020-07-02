@@ -2,7 +2,7 @@
 
 "*Wappalyzer is a cross-platform utility that uncovers the technologies used on websites. It detects content management systems, ecommerce platforms, web frameworks, server software, analytics tools and many more.*"
 
-Wappaligner changes the output of Wappalyzer into something human readable and it provides links to usefull websites and a Google query for finding information on vulnerabilities.
+Wappaligner changes the output of Wappalyzer into something human readable. It also provides links to usefull websites and a Google query for finding information on vulnerabilities.
 No installation is needed.
 
 # Install Wappalyzer

@@ -32,7 +32,7 @@ for app in json_data["applications"]:
 
     sExploitdbUrl = "https://www.exploit-db.com/search?q=" + urllib.parse.quote(app["name"])
     sinfosecmatterUrl = "https://www.google.com/search?q=site%3Ainfosecmatter.com+%22Public+Exploits%22+" + urllib.parse.quote("\"" + app["name"]+ "\"")
-    sTenableUrl = "https://www.google.com/search?q=site%3Atenable.com+%22Public+Exploits%22+" + urllib.parse.quote("\"" + app["name"]+ "\"")
+    sTenableUrl = "https://www.google.com/search?q=site%3Atenable.com/plugins+" + urllib.parse.quote("\"" + app["name"]+ "\"")
     sGoogleUrl = "https://www.google.com/search?q=" + urllib.parse.quote("\"" + app["name"] + "\"" + sVersion2 + " cve |exploit |vulnerability |update |changelog |risk |advisory |cvss")
     print (app["name"] + sVersion1 + " (" + app["confidence"] + "%)")
     print (" - " + app["website"])
